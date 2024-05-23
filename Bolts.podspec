@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'Bolts'
-  s.version      = '1.9.1'
+  s.version      = '1.9.2'
   s.summary      = 'Bolts is a collection of low-level libraries designed to make developing mobile apps easier.'
   s.description  = <<-DESC
                     Bolts was designed by Parse and Facebook for our own internal use, and we have decided to open source these libraries to make them available to others. Using these libraries does not require using any Parse services. Nor do they require having a Parse or Facebook developer account.
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/ParseIt'
   s.requires_arc = true
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '15.0'
   s.osx.deployment_target = '10.8'
   s.watchos.deployment_target = '2.0'
   s.tvos.deployment_target = '9.0'
